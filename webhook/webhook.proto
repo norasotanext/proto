@@ -3,7 +3,7 @@ syntax = "proto3";
 package webhook;
 
 service WebhookService {
-  rpc FindOne (WebhookById) returns (Webhook) {}
+  rpc findOne (WebhookById) returns (Webhook) {}
 }
 
 message WebhookById {
