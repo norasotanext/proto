@@ -11,5 +11,5 @@ export interface Webhook {
 }
 
 export interface WebhookService {
-  FindOne(request: WebhookById): Promise<Webhook>;
+  findOne(request: WebhookById): Promise<Webhook>;
 }
